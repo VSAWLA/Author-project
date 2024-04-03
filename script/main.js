@@ -17,13 +17,13 @@ $(document).ready(function() {
          });
 
          $(window).scroll(function () {
-             if ($(this).scrollTop() > 2400) { // при прокрутке страницы
+             if ($(this).scrollTop() > 6000) { // при прокрутке страницы
              $('.about').addClass('show');   // добавляем класс
              }
             });
 
              $(window).scroll(function () {
-                 if ($(this).scrollTop() > 2900) { // при прокрутке страницы 
+                 if ($(this).scrollTop() > 6400) { // при прокрутке страницы 
                  $('.contacts').addClass('show');   // добавляем класс
                  }
                 });
