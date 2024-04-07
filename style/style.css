@@ -13,14 +13,12 @@
   }
 
   .active {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
-    color: #fff;
-    background: #005F84;
-    border-bottom: 2px solid #001822;
+    border: 1px solid #005F84;
     margin-bottom: 100px;
-    padding: 23px 29px;
+    padding: 19px 22px;
     border-radius: 55px;
     text-decoration: none;
   }
@@ -32,15 +30,19 @@
     background-image: url('../img/main.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
+    height: 100vh;
     border-radius: 0 0 0 280px;
   }
 
   .header {
     width: 921px;
-    height: 131px;
-    padding-top: 87px;
+    height: 140px;
+    padding-top: 10vh;
     margin: auto;
+  }
+
+  .text-intro {
+    display: none;
   }
 
   .nav {
@@ -65,7 +67,7 @@
       width: 1180px;
       height: 669px;
       margin: auto;
-      padding-top: 200px;
+      padding-top: 25vh;
   }
 
   .title-main {
@@ -121,7 +123,7 @@
       background: none;
       border: none;
       margin-bottom: 100px;
-      padding: 23px 29px;
+      padding: 20px 23px;
       border-radius: 55px;
       text-decoration: none;
   }
@@ -145,24 +147,24 @@
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 300;
     color: #fff;
-    height: 119px;
+    height: 169px;
     margin: auto;
     width: 500px;
+    padding-bottom: 40px;
   }
 
   .container {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
-    padding-top: 38px;
-    width: 1267px;
+    width: 1280px;
     margin: 0 auto;
-    gap: 39px;
+    gap: 50px;
   }
 
   .card {
-    width: 614px;
-    height: 267px;
+    width: 613px;
+    height: 265px;
     background-color: #fff;
     flex-wrap: wrap;
     display: flex;
@@ -174,9 +176,10 @@
 
   .card img {
     width: 289px;
-    height: 267px;
+    height: 266px;
     text-align: center;
     border-radius: 22px;
+    transform: scale(1.01);
   }
 
   .scale {
@@ -287,6 +290,17 @@
   margin: 0;
 }
 
+.title-about-2 {
+  display: none;
+  width: 444px;
+  font-size: 64px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 300;
+  color: #005F84;
+  text-align: center;
+  margin: 0;
+}
+
 .left-about {
   display: flex;
   justify-content: center;
@@ -298,8 +312,16 @@
 
 
 .paragraph-about {
-  width: 519px;
+  width: 520px;
   text-align: center;
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+
+.paragraph-about-2 {
+  display: none;
 }
 
 .span-container {
@@ -314,12 +336,16 @@
   font-family: 'Mulish', sans-serif;
   font-weight: 200;
   color: #005F84;
-
 }
 
+.span-about-2 {
+  display: none;
+}
 
 .contacts {
   background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 565px;
   border-radius: 0 280px 0 0;
 }
@@ -352,6 +378,16 @@
 }
 
 #angle-1, #angle-2 {
+  position: absolute;
+}
+
+#angle-1-phone, #angle-2-phone {
+  display: none;
+  position: absolute;
+}
+
+#angle-1-phone-1, #angle-2-phone-2 {
+  display: none;
   position: absolute;
 }
 
@@ -441,66 +477,349 @@
   100% {opacity: 1;}
 }
 
-
-
-@media screen and (min-width:1300px) and (max-width:1350px) {
+@media screen and (max-width:1440px) {
   .main {
     background-image: url('../img/main-width-1.png');
-  }
-}
-
-@media screen and (min-width:1000px) and (max-width:1299px) {
-  .main {
-    background-color: #000;
-    background-size: auto;
     border-radius: 0;
-    height: 700px;
-    width: 1400px;
-    background-image: url('../img/main-width-2.png');
   }
 
-  .intro {
-    height: 569px;
-    padding-top: 150px;
+   .intro {
+    padding-top: 20vh;
   }
 
   .title-main {
-    padding-bottom: 0px;
-    font-size: 75px;
-  }
-
-  .process {
-    width: 1400px;
-  }
-
-  .describe {
-    margin: 0 auto;
-    width: 1000px;
-  }
-
-  .btn {
-    padding: 15px 20px;
-    gap: 0;
-  }
-
-  .list {
-    width: 1400px;
-    margin: auto;
-  }
-
-  .container {
-    width: 1050px;
+    font-size: 90px;
   }
 
   .card {
-    width: 500px;
+    width: 513px;
     height: 220px;
-    border-radius: 20px;
   }
 
   .card img {
-    width: 220px;
+    width: 240px;
     height: 220px;
+  }
+
+  .container {
+    width: 1078px;
+  }
+
+  .content-card {
+    width: 220px;
+    margin-left: 270px;
+  }
+
+  .button-card img {
+    width: 7px;
+    height: 15px;
+  }
+
+  .container-about {
+    width: 1000px;
+  }
+
+  .contacts {
+    border-radius: 0 200px 0 0;
+  }
+
+  .intro {
+    height: 660px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .main {
+    background-image: url('../img/main-width-2.png');
+    border-radius: 0;
+  }
+
+  .header {
+    width: 721px;
+  }
+
+   .intro {
+    padding-top: 20vh;
+    width: 100%;
+  }
+
+  .title-main {
+    font-size: 60px;
+  }
+
+  .nav_link {
+    font-size: 20px;
+  }
+
+  .title-process {
+    font-size: 46px;
+  }
+
+  .card {
+    width: 400px;
+    height: 200px;
+  }
+
+  .card img {
+    width: 210px;
+    height: 200px;
+  }
+
+  .container {
+    width: 900px;
+  }
+
+  .content-card {
+    width: 150px;
+    margin-left: 230px;
+  }
+
+  .title-card {
+    font-size: 20px;
+  }
+
+  .paragraph-card {
+    font-size: 14px;
+    height: 88px;
+  }
+
+  .button-card {
+    font-size: 14px;
+  }
+
+  .button-card img {
+    width: 7px;
+    height: 15px;
+  }
+
+  .title-list {
+    width: 360px;
+    font-size: 46px;
+  }
+
+  .container-about {
+    width: 900px;
+  }
+
+  .process {
+    margin-top: 60px;
+    height: 390px;
+    width: 900px;
+  }
+
+  .describe {
+    height: 170px;
+    font-size: 20px;
+  }
+
+  .button-describe {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .active {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .paragraph-about {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    width: 460px;
+    text-align: left;
+  }
+
+  .span-about {
+    font-size: 20px;
+  }
+
+  .left-about {
+    width: 460px;
+  }
+
+  .title-about {
+    width: 370px;
+    text-align: left;
+    font-size: 46px;
+  }
+
+  .span-container {
+    width: 370px;
+    text-align: left
+  }
+
+  .right-about {
+    height: 240px;
+    width: 370px;
+  }
+
+  .contacts {
+    border-radius: 0 200px 0 0;
+    height: 400px;
+  }
+
+  .wrapper-contacts {
+    height: 400px;
+  }
+
+  .title-contacts {
+    font-size: 46px;
+    padding: 0;
+    height: 130px;
+  }
+
+  .img-contacts {
+    margin-top: 110px;
+  }
+
+  .button-contacts {
+    font-size: 20px;
+    margin-top: 220px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .contacts {
+    border-radius: 0;
+  }
+  
+  .img-contacts {
+    margin-top: 20vh;
+  }
+
+  .button-contacts {
+    margin-top: 39vh;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .icon {
+    margin: 30px 0 0 30px;
+  }
+  .text-file {
+    font-size: 14px;
+  }
+  .background-file {
+    width: 600px;
+  }
+  .main {
+    background-image: url('../img/main-phone-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .header {
+    display: none;
+  }
+
+  .intro {
+    padding-top: 40vh;
+    width: 640px;
+    height: 960px;
+  }
+
+  .title-main {
+    padding-bottom: 5vh;
+    margin: 0 auto;
+    font-size: 50px;
+  }
+
+  .text-intro {
+    display: block;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 70px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    letter-spacing: 30px;
+    width: 80px;
+  }
+
+  .process {
+    height: 1660px;
+    width: auto;
+  }
+
+  .title-process {
+    font-size: 70px;
+    height: 100px;
+  }
+
+  .describe {
+    height: 200px;
+    font-size: 20px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #0f3f6517;
+    align-content: center;
+    margin-top: 40px;
+    border-radius: 20px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .contacts {
+    height: 500px;
+  }
+
+  .wrapper-contacts {
+    height: 500px;
+  }
+
+  .img-contacts {
+    margin-top: 160px;
+  }
+
+  .button-contacts {
+    margin-top: 270px;
+  }
+
+  .container {
+    gap: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hid {
+    display: block;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    color: #000;
+    height: 200px;
+    font-size: 20px;
+    width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #0f3f6517;
+    margin-top: 50px;
+    align-content: center;
+    border-radius: 20px;
+  }
+
+  .title-list {
+    font-size: 70px;
+    width: 540px;
+  }
+
+  .card {
+    margin-bottom: 40px;
+    width: 600px;
+    height: 250px;
+  }
+
+  .card img {
+    width: 270px;
+    height: 250px;
   }
 
   .button-card img {
@@ -509,75 +828,161 @@
   }
 
   .content-card {
-    margin-left: 250px;
+    margin-left: 310px;
+    width: 260px;
+    height: 200px;
+    justify-content: space-around;
+  }
+
+  .title-card {
+    font-size: 25px;
   }
 
   .paragraph-card {
-    width: 220px;
+    font-size: 18px;
   }
 
-  .about {
-    width: 1400px;
-  }
-
-  .contacts {
-    width: 1400px;
-    border-radius: 0;
-  }
-}
-
-@media screen and (min-width:800px) and (max-width:999px) {
-  .main {
-    background-color: #000;
-    background-size: auto;
-    border-radius: 0;
-    height: 700px;
-    width: 1300px;
-    background-image: url('../img/main-width-2.png');
-  }
-
-  .intro {
-    height: 569px;
-    padding-top: 150px;
-  }
-
-  .title-main {
-    padding-bottom: 0px;
-    font-size: 75px;
-  }
-
-  .process {
-    width: 1300px;
-  }
-
-  .describe {
-    margin: 0 auto;
-    width: 1000px;
-  }
-
-  .btn {
-    padding: 15px 20px;
-    gap: 0;
+  .button-card {
+    font-size: 18px;
   }
 
   .list {
-    width: 1300px;
-    margin: auto;
+    background-image: url('../img/mist-phone.png');
+  }
+
+  .container-about {
+    width: auto;
+    display: block;
+    position: relative;
+    padding-top: 60px;
+    height: 450px;
+  }
+
+  .left-about {
+    position: absolute;
+    padding-top: 140px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .right-about {
+    width: 700px;
+    margin: 0 auto;
+    justify-content: center;
+    height: 130px;
+    align-items: center;
+  }
+
+  .paragraph-about {
+    display: none;
+  }
+
+  .paragraph-about-2 {
+    display: block;
+    width: 519px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: #000;
+    margin: 20px 40px 0 40px;
+    width: 722px;
+    height: 220px;
+  }
+
+  .title-about {
+    display: none;
+  }
+
+  .title-about-2 {
+    width: 370px;
+    text-align: center;
+    font-size: 46px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .span-container {
+    width: 530px;
+    text-align: center;
+    bottom: auto;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .span-about {
+    display: none;
+  }
+
+  .span-about-2 {
+    display: block;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 200;
+    color: #005F84;
+  }
+}
+@media screen and (max-width: 750px) {
+  .icon {
+    margin: 30px 0 0 30px;
+  }
+  .text-file {
+    font-size: 10px;
+  }
+  .background-file {
+    width: 400px;
+  }
+  .intro {
+    width: auto;
+  }
+
+  .describe {
+    height: 200px;
+    font-size: 16px;
+    width: 500px;
+  }
+
+  .hid {
+    height: 200px;
+    font-size: 16px;
+    width: 500px;
+  }
+
+  .right-about {
+    width: auto;
   }
 
   .container {
-    width: 1050px;
+    width: 440px;
   }
 
   .card {
-    width: 500px;
-    height: 220px;
-    border-radius: 20px;
+    width: 440px;
+    height: 200px;
   }
 
   .card img {
-    width: 220px;
-    height: 220px;
+      width: 210px;
+      height: 200px;
+  }
+
+  .content-card {
+    margin-left: 230px;
+    width: 190px;
+    height: 150px;
+  }
+
+  .title-card {
+    font-size: 20px;
+  }
+
+  .paragraph-card {
+    font-size: 14px;
+  }
+
+  .button-card {
+    font-size: 14px;
   }
 
   .button-card img {
@@ -585,97 +990,401 @@
     height: 15px;
   }
 
-  .content-card {
-    margin-left: 250px;
-  }
-
-  .paragraph-card {
-    width: 220px;
-  }
-
   .about {
-    width: 1300px;
+    height: 600px;
   }
 
-  .contacts {
-    width: 1300px;
-    border-radius: 0;
+  .paragraph-about-2 {
+    width: auto;
+  }
+
+  .img-contacts {
+    width: 450px;
+  }
+
+  #angle-1, #angle-2{
+    display: none;
+  }
+
+  #angle-1-phone, #angle-2-phone {
+    display: block;
+    position: absolute;
   }
 }
 
-@media screen and (min-width:100px) and (max-width:500px) {
-  .main {
-    background-color: #000;
-    background-size: auto;
-    border-radius: 0;
-    height: 700px;
-    width: 1300px;
-    background-image: url('../img/main-width-2.png');
+@media screen and (max-width: 600px) {
+  .icon {
+    margin: 30px 0 0 30px;
+  }
+  .text-file {
+    width: 200px;
+    margin: auto;
+  }
+  .background-file {
+    width: 300px;
+  }
+
+  .title-process {
+    height: 30px;
   }
 
   .intro {
-    height: 569px;
-    padding-top: 150px;
+    height: 100vh;
+  }
+
+  .title-process {
+    font-size: 26px;
   }
 
   .title-main {
-    padding-bottom: 0px;
-    font-size: 75px;
+    font-size: 26px;
+  }
+
+  .text-intro {
+    font-size: 26px;
   }
 
   .process {
-    width: 1300px;
+    margin-top: 30px;
+    height: 1520px;
+  }
+
+  .title {
+    font-size: 26px;
+    height: 30px;
   }
 
   .describe {
-    margin: 0 auto;
-    width: 1000px;
+    margin-top: 30px;
+    height: 200px;
+    font-size: 14px;
+    width: 300px;
   }
 
-  .btn {
-    padding: 15px 20px;
-    gap: 0;
+  .hid {
+    margin-top: 30px;
+    height: 200px;
+    font-size: 14px;
+    width: 300px;
   }
 
-  .list {
-    width: 1300px;
-    margin: auto;
+  .title-list {
+    font-size: 26px;
+    width: 201px;
+    height: 85px;
+    padding: 25px 0;
   }
 
   .container {
-    width: 1050px;
+    width: 300px;
   }
-
+/* 
   .card {
-    width: 500px;
-    height: 220px;
-    border-radius: 20px;
+    width: 300px;
+    height: 160px;
   }
 
   .card img {
-    width: 220px;
-    height: 220px;
+    width: 140px;
+    height: 130px;
+    margin-left: 14px;
+  }
+
+  .content-card {
+    margin-left: 170px;
+    width: 115px;
+    height: 131px;
+  }
+
+  .title-card {
+    font-size: 14px;
+  }
+
+  .paragraph-card {
+    font-size: 12px
+  }
+
+  .button-card {
+    font-size: 12px
   }
 
   .button-card img {
     width: 7px;
     height: 15px;
-  }
-
-  .content-card {
-    margin-left: 250px;
-  }
-
-  .paragraph-card {
-    width: 220px;
-  }
+    margin-left: 0;
+  } */
 
   .about {
-    width: 1300px;
+    height: 500px;
+  }
+
+  .container-about {
+    padding-top: 30px;
+  }
+
+  .title-about-2 {
+    font-size: 26px;
+  }
+
+  .span-container {
+    width: 360px;
+  }
+
+  .span-about-2 {
+    font-size: 10px;
+  }
+
+  .left-about {
+    padding-top: 70px;
+  }
+
+  .paragraph-about-2 {
+    font-size: 14px;
+    height: 420px;
+  }
+
+  .title-contacts {
+    font-size: 26px;
+    height: 40px;
+    margin-top: 30px;
+  }
+
+  .img-contacts {
+    width: 320px;
+    margin-top: 50px;
+    height: 250px;
+  }
+
+  .button-contacts {
+    font-size: 14px;
+    margin-top: 160px;
+  }
+
+  .wrapper-contacts {
+    height: 300px;
   }
 
   .contacts {
-    width: 1300px;
-    border-radius: 0;
+    height: 300px;
+  }
+
+
+  #angle-1, #angle-2{
+    display: none;
+  }
+
+  #angle-1-phone, #angle-2-phone {
+    display: none;
+  }
+
+  #angle-1-phone-1, #angle-2-phone-2 {
+    display: block;
+    position: absolute;
+  }
+
+
+  .card {
+    margin-bottom: 20px;
+    display: block;
+    width: 300px;
+    height: 500px;
+  }
+
+  .container {
+    width: 300px;
+  }
+
+  .card img {
+    width: 300px;
+    height: 280px;
+    margin-left: 0px;
+  }
+
+  .content-card {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    height: 190px;
+    padding: 20px 10px;
+  }
+
+  .button-card {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  .title-card {
+    font-size: 26px;
+  }
+
+  .paragraph-card {
+    font-size: 16px;
+  }
+
+  .button-card img {
+    width: 7px;
+    height: 15px;
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .icon {
+    margin: 10px 0 0 10px;
+    position: relative;
+  }
+
+  .background-file {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-top: 20px;
+  }
+
+
+  .title-process {
+    height: 30px;
+  }
+
+  .describe {
+    width: 250px;
+  }
+
+  .hid {
+    width: 250px;
+  }
+  .card {
+    margin-bottom: 20px;
+    display: block;
+    width: 200px;
+    height: 370px;
+  }
+
+  .container {
+    width: 200px;
+  }
+
+  .card img {
+    width: 200px;
+    height: 180px;
+    margin-left: 0px;
+  }
+
+  .content-card {
+    width: 200px;
+    height: 180px;
+    margin: auto;
+    text-align: center;
+    height: 160px;
+  }
+
+  .button-card {
+    margin: 0 auto;
+    font-size: 14px;
+  }
+
+  .title-card {
+    font-size: 16px;
+  }
+
+  .paragraph-card {
+    font-size: 14px;
+  }
+
+  .button-card img {
+    width: 7px;
+    height: 15px;
+    margin-left: 0;
+  }
+
+  .title-about-2 {
+    width: auto;
+  }
+
+  .span-container {
+    width: auto;
+    padding: 0 20px;
+  }
+
+  .about {
+    height: 900px;
+  }
+
+  .contacts {
+    height: 200px;
+  }
+
+  .wrapper-contacts {
+    height: 200px;
+  }
+
+  .img-contacts {
+    display: none;
+  }
+
+  .button-contacts {
+    margin-top: 100px;
+  }
+
+  .button-contacts a {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 15px;
   }
 }
+
+@media screen and (max-width: 449px) {
+
+  .title-main {
+    font-size: 20px;
+  }
+  .about {
+    height: 550px;
+  }
+
+  .paragraph-about-2 {
+    font-size: 12px;
+  }
+
+  .process {
+    height: 1740px;
+  }
+
+  .left-about {
+    padding-top: 90px;
+  }
+
+  .button-contacts {
+    font-size: 10px;
+  }
+
+  .describe {
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    font-size: 12px;
+  }
+
+  .hid {
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .about {
+    height: 660px;
+  }
+  .background-file {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .about {
+    height: 760px;
+  }
+}
+

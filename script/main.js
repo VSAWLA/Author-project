@@ -1,29 +1,186 @@
 $(document).ready(function() {
 
-
-     $(window).scroll(function () {
-         if ($(this).scrollTop() > 400) { // при прокрутке страницы
-         $('.process').addClass('show');   // добавляем класс
-         }
-         });
-
-     $(window).scroll(function () {
-         if ($(this).scrollTop() > 1100) { // при прокрутке страницы
-         $('.wrap-list').addClass('show');   // добавляем класс
-         }
-         });
-
-         $(window).scroll(function () {
-             if ($(this).scrollTop() > 1000) { // при прокрутке страницы
-             $('.about').addClass('show');   // добавляем класс
-             }
+    if ($(window).width() > 1441) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 400) { // при прокрутке страницы
+            $('.process').addClass('show');   // добавляем класс
+            }
             });
+   
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1100) { // при прокрутке страницы
+            $('.wrap-list').addClass('show');   // добавляем класс
+            }
+            });
+   
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 6300) { // при прокрутке страницы
+                $('.about').addClass('show');   // добавляем класс
+                }
+               });
+   
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 6500) { // при прокрутке страницы 
+                    $('.contacts').addClass('show');   // добавляем класс
+                    }
+                   });
+    }
 
-             $(window).scroll(function () {
-                 if ($(this).scrollTop() > 1400) { // при прокрутке страницы 
-                 $('.contacts').addClass('show');   // добавляем класс
-                 }
-                });
+    if ($(window).width() > 1201) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 400) { // при прокрутке страницы
+            $('.process').addClass('show');   // добавляем класс
+            }
+            });
+   
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1080) { // при прокрутке страницы
+            $('.wrap-list').addClass('show');   // добавляем класс
+            }
+            });
+   
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 5518) { // при прокрутке страницы
+                $('.about').addClass('show');   // добавляем класс
+                }
+               });
+   
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 5818) { // при прокрутке страницы 
+                    $('.contacts').addClass('show');   // добавляем класс
+                    }
+                   });
+    }
+
+    if ($(window).width() > 1001) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 400) { // при прокрутке страницы
+            $('.process').addClass('show');   // добавляем класс
+            }
+            });
+   
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 780) { // при прокрутке страницы
+            $('.wrap-list').addClass('show');   // добавляем класс
+            }
+            });
+   
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 4867) { // при прокрутке страницы
+                $('.about').addClass('show');   // добавляем класс
+                }
+               });
+   
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 5167) { // при прокрутке страницы 
+                    $('.contacts').addClass('show');   // добавляем класс
+                    }
+                   });
+    }
+
+    if ($(window).width() > 751) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 400) { // при прокрутке страницы
+            $('.process').addClass('show');   // добавляем класс
+            }
+            });
+   
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 2240) { // при прокрутке страницы
+            $('.wrap-list').addClass('show');   // добавляем класс
+            }
+            });
+   
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 11461) { // при прокрутке страницы
+                $('.about').addClass('show');   // добавляем класс
+                }
+               });
+   
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 11861) { // при прокрутке страницы 
+                    $('.contacts').addClass('show');   // добавляем класс
+                    }
+                   });
+    }
+
+    if ($(window).width() > 601) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 450) { // при прокрутке страницы
+            $('.process').addClass('show');   // добавляем класс
+            }
+            });
+   
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 2290) { // при прокрутке страницы
+            $('.wrap-list').addClass('show');   // добавляем класс
+            }
+            });
+   
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 9940) { // при прокрутке страницы
+                $('.about').addClass('show');   // добавляем класс
+                }
+               });
+   
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 10290) { // при прокрутке страницы 
+                    $('.contacts').addClass('show');   // добавляем класс
+                    }
+                   });
+    }
+
+    if ($(window).width() > 451) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 450) { // при прокрутке страницы
+            $('.process').addClass('show');   // добавляем класс
+            }
+            });
+   
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1777) { // при прокрутке страницы
+            $('.wrap-list').addClass('show');   // добавляем класс
+            }
+            });
+   
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 18237) { // при прокрутке страницы
+                $('.about').addClass('show');   // добавляем класс
+                }
+               });
+   
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 18537) { // при прокрутке страницы 
+                    $('.contacts').addClass('show');   // добавляем класс
+                    }
+                   });
+    }
+
+    if ($(window).width() > 331) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 450) { // при прокрутке страницы
+            $('.process').addClass('show');   // добавляем класс
+            }
+            });
+   
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1952) { // при прокрутке страницы
+            $('.wrap-list').addClass('show');   // добавляем класс
+            }
+            });
+   
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 14432) { // при прокрутке страницы
+                $('.about').addClass('show');   // добавляем класс
+                }
+               });
+   
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 14732) { // при прокрутке страницы 
+                    $('.contacts').addClass('show');   // добавляем класс
+                    }
+                   });
+    }
 
     $("#1__link").click(function() {
         $([document.documentElement, document.body]).animate({
@@ -137,7 +294,33 @@ $(document).ready(function() {
 
     });
 
+    $('.href').hover(function() {
+        $('#angle-1-phone').removeClass('scale-cont-3');
+        $('#angle-2-phone').removeClass('scale-cont-4');
+        $('#angle-1-phone').addClass('scale-cont-1');
+        $('#angle-2-phone').addClass('scale-cont-2');
 
+        $('.href').mouseout(function() {
+            $('#angle-1-phone').removeClass('scale-cont-1');
+            $('#angle-2-phone').removeClass('scale-cont-2');
+            $('#angle-1-phone').addClass('scale-cont-3');
+            $('#angle-2-phone').addClass('scale-cont-4');
+        });
+    });
+
+    $('.href').hover(function() {
+        $('#angle-1-phone-1').removeClass('scale-cont-3');
+        $('#angle-2-phone-2').removeClass('scale-cont-4');
+        $('#angle-1-phone-1').addClass('scale-cont-1');
+        $('#angle-2-phone-2').addClass('scale-cont-2');
+
+        $('.href').mouseout(function() {
+            $('#angle-1-phone-1').removeClass('scale-cont-1');
+            $('#angle-2-phone-2').removeClass('scale-cont-2');
+            $('#angle-1-phone-1').addClass('scale-cont-3');
+            $('#angle-2-phon2').addClass('scale-cont-4');
+        });
+    });
 
 
 });
