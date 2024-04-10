@@ -1,186 +1,90 @@
 $(document).ready(function() {
 
-    if ($(window).width() > 1441) {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 400) { // при прокрутке страницы
-            $('.process').addClass('show');   // добавляем класс
-            }
-            });
-   
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 1100) { // при прокрутке страницы
-            $('.wrap-list').addClass('show');   // добавляем класс
-            }
-            });
-   
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 6300) { // при прокрутке страницы
-                $('.about').addClass('show');   // добавляем класс
-                }
-               });
-   
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 6500) { // при прокрутке страницы 
-                    $('.contacts').addClass('show');   // добавляем класс
-                    }
-                   });
-    }
+    $(window).scroll(function() {
+        var processBlock = $('.process');
+        var windowHeight = $(window).height();
+        var scrollDistance = $(window).scrollTop();
+      
+        processBlock.each(function() {
+          var blockTop = $(this).offset().top;
+      
+          if (blockTop - scrollDistance < windowHeight - 300 && blockTop - scrollDistance > 0) {
+            $(this).addClass('show');
+          }
+        });
+      });
 
-    if ($(window).width() > 1201) {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 400) { // при прокрутке страницы
-            $('.process').addClass('show');   // добавляем класс
-            }
-            });
-   
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 1080) { // при прокрутке страницы
-            $('.wrap-list').addClass('show');   // добавляем класс
-            }
-            });
-   
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 5518) { // при прокрутке страницы
-                $('.about').addClass('show');   // добавляем класс
-                }
-               });
-   
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 5818) { // при прокрутке страницы 
-                    $('.contacts').addClass('show');   // добавляем класс
-                    }
-                   });
-    }
+      $(window).scroll(function() {
+        var processBlock = $('.wrap-list');
+        var windowHeight = $(window).height();
+        var scrollDistance = $(window).scrollTop();
+      
+        processBlock.each(function() {
+          var blockTop = $(this).offset().top;
+      
+          if (blockTop - scrollDistance < windowHeight - 300 && blockTop - scrollDistance > 0) {
+            $(this).addClass('show');
+          }
+        });
+      });
 
-    if ($(window).width() > 1001) {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 400) { // при прокрутке страницы
-            $('.process').addClass('show');   // добавляем класс
-            }
-            });
-   
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 780) { // при прокрутке страницы
-            $('.wrap-list').addClass('show');   // добавляем класс
-            }
-            });
-   
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 4867) { // при прокрутке страницы
-                $('.about').addClass('show');   // добавляем класс
-                }
-               });
-   
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 5167) { // при прокрутке страницы 
-                    $('.contacts').addClass('show');   // добавляем класс
-                    }
-                   });
-    }
+      $(window).scroll(function() {
+        var processBlock = $('.about');
+        var windowHeight = $(window).height();
+        var scrollDistance = $(window).scrollTop();
+      
+        processBlock.each(function() {
+          var blockTop = $(this).offset().top;
+      
+          if (blockTop - scrollDistance < windowHeight - 300 && blockTop - scrollDistance > 0) {
+            $(this).addClass('show');
+          }
+        });
+      });
 
-    if ($(window).width() > 751) {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 400) { // при прокрутке страницы
-            $('.process').addClass('show');   // добавляем класс
-            }
-            });
-   
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 2240) { // при прокрутке страницы
-            $('.wrap-list').addClass('show');   // добавляем класс
-            }
-            });
-   
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 11461) { // при прокрутке страницы
-                $('.about').addClass('show');   // добавляем класс
-                }
-               });
-   
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 11861) { // при прокрутке страницы 
-                    $('.contacts').addClass('show');   // добавляем класс
-                    }
-                   });
-    }
+      $(window).scroll(function() {
+        var processBlock = $('.contacts');
+        var windowHeight = $(window).height();
+        var scrollDistance = $(window).scrollTop();
+      
+        processBlock.each(function() {
+          var blockTop = $(this).offset().top;
+      
+          if (blockTop - scrollDistance < windowHeight - 100 && blockTop - scrollDistance > 0) {
+            $(this).addClass('show');
+          }
+        });
+      });
 
-    if ($(window).width() > 601) {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 450) { // при прокрутке страницы
-            $('.process').addClass('show');   // добавляем класс
-            }
-            });
-   
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 2290) { // при прокрутке страницы
-            $('.wrap-list').addClass('show');   // добавляем класс
-            }
-            });
-   
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 9940) { // при прокрутке страницы
-                $('.about').addClass('show');   // добавляем класс
-                }
-               });
-   
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 10290) { // при прокрутке страницы 
-                    $('.contacts').addClass('show');   // добавляем класс
-                    }
-                   });
-    }
 
-    if ($(window).width() > 451) {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 450) { // при прокрутке страницы
-            $('.process').addClass('show');   // добавляем класс
-            }
-            });
-   
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 1777) { // при прокрутке страницы
-            $('.wrap-list').addClass('show');   // добавляем класс
-            }
-            });
-   
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 18237) { // при прокрутке страницы
-                $('.about').addClass('show');   // добавляем класс
-                }
-               });
-   
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 18537) { // при прокрутке страницы 
-                    $('.contacts').addClass('show');   // добавляем класс
-                    }
-                   });
-    }
 
-    if ($(window).width() > 331) {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 450) { // при прокрутке страницы
-            $('.process').addClass('show');   // добавляем класс
-            }
-            });
-   
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 1952) { // при прокрутке страницы
-            $('.wrap-list').addClass('show');   // добавляем класс
-            }
-            });
-   
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 14432) { // при прокрутке страницы
-                $('.about').addClass('show');   // добавляем класс
-                }
-               });
-   
-                $(window).scroll(function () {
-                    if ($(this).scrollTop() > 14732) { // при прокрутке страницы 
-                    $('.contacts').addClass('show');   // добавляем класс
-                    }
-                   });
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     $("#1__link").click(function() {
         $([document.documentElement, document.body]).animate({

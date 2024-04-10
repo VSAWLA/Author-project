@@ -535,6 +535,10 @@
     width: 721px;
   }
 
+  .contacts {
+    border-radius: 0;
+  }
+
    .intro {
     padding-top: 20vh;
     width: 100%;
@@ -1043,7 +1047,7 @@
 
   .process {
     margin-top: 30px;
-    height: 1520px;
+    height: 1460px;
   }
 
   .title {
@@ -1051,19 +1055,13 @@
     height: 30px;
   }
 
-  .describe {
+  .describe, .hid {
     margin-top: 30px;
     height: 200px;
     font-size: 14px;
-    width: 300px;
+    width: 80%;
   }
 
-  .hid {
-    margin-top: 30px;
-    height: 200px;
-    font-size: 14px;
-    width: 300px;
-  }
 
   .title-list {
     font-size: 26px;
@@ -1073,7 +1071,7 @@
   }
 
   .container {
-    width: 300px;
+    width: 80%;
   }
 /* 
   .card {
@@ -1112,7 +1110,7 @@
   } */
 
   .about {
-    height: 500px;
+    height: 410px;
   }
 
   .container-about {
@@ -1183,168 +1181,161 @@
   .card {
     margin-bottom: 20px;
     display: block;
-    width: 300px;
-    height: 500px;
+    width: 40%;
+    height: 270px;
   }
 
   .container {
-    width: 300px;
+    width: 80%;
+    flex-direction: row;
+    gap: 10%;
   }
 
   .card img {
-    width: 300px;
-    height: 280px;
+    width: 100%;
+    height: 60%;
     margin-left: 0px;
+    object-fit: cover;
   }
 
   .content-card {
-    width: 300px;
+    width: 100%;
     margin: auto;
     text-align: center;
-    height: 190px;
-    padding: 20px 10px;
+    height: 30%;
+    padding: 10px 10px;
   }
 
   .button-card {
     margin: 0 auto;
     font-size: 16px;
-  }
-
-  .title-card {
-    font-size: 26px;
-  }
-
-  .paragraph-card {
-    font-size: 16px;
-  }
-
-  .button-card img {
-    width: 7px;
-    height: 15px;
-    margin-left: 0;
-  }
-
-}
-
-@media screen and (max-width: 450px) {
-  .icon {
-    margin: 10px 0 0 10px;
-    position: relative;
-  }
-
-  .background-file {
-    margin-top: 20px;
-    border-radius: 20px;
-    padding-top: 20px;
-  }
-
-
-  .title-process {
-    height: 30px;
-  }
-
-  .describe {
-    width: 250px;
-  }
-
-  .hid {
-    width: 250px;
-  }
-  .card {
-    margin-bottom: 20px;
-    display: block;
-    width: 200px;
-    height: 370px;
-  }
-
-  .container {
-    width: 200px;
-  }
-
-  .card img {
-    width: 200px;
-    height: 180px;
-    margin-left: 0px;
-  }
-
-  .content-card {
-    width: 200px;
-    height: 180px;
-    margin: auto;
-    text-align: center;
-    height: 160px;
-  }
-
-  .button-card {
-    margin: 0 auto;
-    font-size: 14px;
-  }
-
-  .title-card {
-    font-size: 16px;
-  }
-
-  .paragraph-card {
-    font-size: 14px;
-  }
-
-  .button-card img {
-    width: 7px;
-    height: 15px;
-    margin-left: 0;
-  }
-
-  .title-about-2 {
     width: auto;
   }
 
-  .span-container {
-    width: auto;
-    padding: 0 20px;
+  .title-card {
+    font-size: 18px;
   }
 
-  .about {
-    height: 900px;
-  }
-
-  .contacts {
-    height: 200px;
-  }
-
-  .wrapper-contacts {
-    height: 200px;
-  }
-
-  .img-contacts {
+  .paragraph-card {
     display: none;
   }
 
-  .button-contacts {
-    margin-top: 100px;
+  .button-card img {
+    width: 7px;
+    height: 15px;
+    margin-left: 0;
   }
 
-  .button-contacts a {
-    border: 1px solid;
-    padding: 10px;
-    border-radius: 15px;
+}
+
+/* about */
+
+@media screen and (max-width: 554px) {
+  .about {
+    height: 430px;
   }
 }
 
-@media screen and (max-width: 449px) {
+@media screen and (max-width: 519px) {
+  .about {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .about {
+    height: 480px;
+  }
+
+  .card {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .about {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .about {
+    height: 530px;
+  }
+
+  .title-card {
+    font-size: 14px;
+  }
+
+  .button-card {
+    font-size: 13px;
+  }
+
+  .content-card {
+    padding: 10px 10px 0px 10px;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .about {
+    height: 560px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .about {
+    height: 510px;
+  }
+  .paragraph-about-2 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .about {
+    height: 540px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .about {
+    height: 570px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .about {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 297px) {
+  .about {
+    height: 640px;
+  }
+}
+@media screen and (max-width: 277px) {
+  .about {
+    height: 680px;
+  }
+}
+@media screen and (max-width: 265px) {
+  .about {
+    height: 720px;
+  }
+}
+@media screen and (max-width: 255px) {
+  .about {
+    height: 770px;
+  }
+}
+
+@media screen and (max-width: 376px) {
 
   .title-main {
     font-size: 20px;
   }
-  .about {
-    height: 550px;
-  }
 
   .paragraph-about-2 {
     font-size: 12px;
-  }
-
-  .process {
-    height: 1740px;
   }
 
   .left-about {
@@ -1355,33 +1346,77 @@
     font-size: 10px;
   }
 
-  .describe {
+  .title-about-2 {
+    width: 160px;
+  }
+
+  .span-about-2 {
+    width: 250px;
+    margin: auto;
+  }
+
+  .span-container {
+    width: 250px;
+    margin: auto;
+  }
+
+  .img-contacts {
+    display: none;
+  }
+
+  .contacts {
+    height: 150px
+  }
+
+  .wrapper-contacts {
+    height: 150px
+  }
+
+  .button-contacts {
+    margin-top: 30%;
+    border: 1px solid #fff;
+    border-radius: 20px;
     padding: 10px;
-    width: 200px;
-    height: 250px;
+  }
+
+}
+
+@media screen and (max-width: 330px) {
+  .title-card {
+    font-size: 10px;
+  }
+
+  .button-card {
+    font-size: 9px;
+  }
+
+  .background-file {
+    width: 250px;
+  }
+
+  .describe {
     font-size: 12px;
   }
 
   .hid {
-    padding: 10px;
-    width: 200px;
-    height: 250px;
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 330px) {
-  .about {
-    height: 660px;
+@media screen and (max-width: 250px) {
+  .main {
+    display: none;
   }
-  .background-file {
-    width: 250px;
+  .process {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+  .about {
+    display: none;
+  }
+  .contacts {
+    display: none;
   }
 }
-
-@media screen and (max-width: 275px) {
-  .about {
-    height: 760px;
-  }
-}
-
