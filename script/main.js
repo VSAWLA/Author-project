@@ -50,41 +50,11 @@ $(document).ready(function() {
         processBlock.each(function() {
           var blockTop = $(this).offset().top;
       
-          if (blockTop - scrollDistance < windowHeight - 100 && blockTop - scrollDistance > 0) {
+          if (blockTop - scrollDistance < windowHeight - 0 && blockTop - scrollDistance > 0) {
             $(this).addClass('show');
           }
         });
       });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     $("#1__link").click(function() {
         $([document.documentElement, document.body]).animate({
