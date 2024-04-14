@@ -427,115 +427,91 @@ body {
     height: 660px;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .main {
     background-image: url("../img/main-phone-1.png");
     border-radius: 0;
   }
-
   .header {
     width: 721px;
   }
-
   .intro {
     padding-top: 20vh;
     width: 100%;
   }
-
   .title-main {
     font-size: 60px;
   }
-
   .nav_link {
     font-size: 20px;
   }
-
   .title-process {
     font-size: 46px;
   }
-
   .card {
     width: 400px;
     height: 200px;
   }
-
   .card img {
     width: 210px;
     height: 200px;
   }
-
   .container {
     width: 900px;
   }
-
   .content-card {
     width: 150px;
     margin-left: 230px;
   }
-
   .title-card {
     font-size: 20px;
   }
-
   .paragraph-card {
     font-size: 14px;
     height: 88px;
   }
-
   .button-card {
     font-size: 14px;
   }
-
   .button-card img {
     width: 7px;
     height: 15px;
   }
-
   .title-list {
     width: 360px;
     font-size: 46px;
   }
-
   .process {
     margin-top: 60px;
     height: 390px;
     width: 900px;
   }
-
   .describe {
     height: 170px;
     font-size: 20px;
   }
-
   .button-describe {
     font-size: 20px;
     margin-bottom: 0;
   }
-
   .active {
     font-size: 20px;
     margin-bottom: 0;
   }
-
   .contacts {
     height: 400px;
   }
-
   .wrapper-contacts {
     height: 400px;
   }
-
   .title-contacts {
     font-size: 46px;
     padding: 0;
     height: 130px;
   }
-
   .img-contacts {
     margin-top: 110px;
   }
-
   .button-contacts {
     font-size: 20px;
     margin-top: 220px;
@@ -554,7 +530,6 @@ body {
     font-size: 56px;
   }
 }
-
 @media screen and (max-width: 998px) {
   .icon {
     margin: 30px 0 0 30px;
@@ -575,19 +550,16 @@ body {
   .header {
     display: none;
   }
-
   .intro {
     padding-top: 40vh;
     width: 640px;
     height: 960px;
   }
-
   .title-main {
     padding-bottom: 5vh;
     margin: 0 auto;
     font-size: 50px;
   }
-
   .text-intro {
     display: block;
     color: #fff;
@@ -600,17 +572,14 @@ body {
     letter-spacing: 30px;
     width: 80px;
   }
-
   .process {
     height: 1660px;
     width: auto;
   }
-
   .title-process {
     font-size: 70px;
     height: 100px;
   }
-
   .describe {
     height: 200px;
     font-size: 20px;
@@ -622,27 +591,21 @@ body {
     margin-top: 40px;
     border-radius: 20px;
   }
-
   .btn {
     display: none;
   }
-
   .contacts {
     height: 500px;
   }
-
   .wrapper-contacts {
     height: 500px;
   }
-
   .img-contacts {
     margin-top: 160px;
   }
-
   .button-contacts {
     margin-top: 270px;
   }
-
   .container {
     gap: 10px;
     width: 600px;
@@ -650,7 +613,6 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-
   .hid {
     display: block;
     font-family: "Mulish", sans-serif;
@@ -666,47 +628,38 @@ body {
     align-content: center;
     border-radius: 20px;
   }
-
   .title-list {
     font-size: 70px;
     width: 540px;
   }
-
   .card {
     margin-bottom: 40px;
     width: 600px;
     height: 250px;
   }
-
   .card img {
     width: 270px;
     height: 250px;
   }
-
   .button-card img {
     width: 7px;
     height: 15px;
   }
-
   .content-card {
     margin-left: 310px;
     width: 260px;
     height: 200px;
     justify-content: space-around;
   }
-
   .title-card {
     font-size: 25px;
   }
-
   .paragraph-card {
     font-size: 18px;
   }
-
   .button-card {
     font-size: 18px;
   }
-
   .container-about {
     width: 740px;
   }
@@ -738,71 +691,57 @@ body {
   .intro {
     width: auto;
   }
-
   .describe {
     height: 200px;
     font-size: 16px;
     width: 500px;
   }
-
   .hid {
     height: 200px;
     font-size: 16px;
     width: 500px;
   }
-
   .container {
     width: 440px;
   }
-
   .card {
     width: 440px;
     height: 200px;
   }
-
   .card img {
     width: 210px;
     height: 200px;
   }
-
   .content-card {
     margin-left: 230px;
     width: 190px;
     height: 150px;
   }
-
   .title-card {
     font-size: 20px;
   }
-
   .paragraph-card {
     font-size: 14px;
   }
-
   .button-card {
     font-size: 14px;
   }
-
   .button-card img {
     width: 7px;
     height: 15px;
   }
-
   .img-contacts {
     width: 450px;
   }
-
   #angle-1,
   #angle-2 {
     display: none;
   }
-
   #angle-1-phone,
   #angle-2-phone {
     display: block;
     position: absolute;
   }
-
   .span-about {
     display: none;
   }
@@ -829,7 +768,6 @@ body {
     width: 450px;
   }
 }
-
 @media screen and (max-width: 600px) {
   .icon {
     margin: 30px 0 0 30px;
@@ -980,7 +918,6 @@ body {
     margin-left: 0;
   }
 }
-
 @media screen and (max-width: 491px) {
   .card {
     height: 180px;
@@ -1002,42 +939,33 @@ body {
     width: 300px;
   }
 }
-
 @media screen and (max-width: 441px) {
   .title-card {
     font-size: 14px;
   }
-
   .button-card {
     font-size: 13px;
   }
-
   .content-card {
     padding: 10px 10px 0px 10px;
   }
 }
-
 @media screen and (max-width: 376px) {
   .title-main {
     font-size: 20px;
   }
-
   .button-contacts {
     font-size: 10px;
   }
-
   .img-contacts {
     display: none;
   }
-
   .contacts {
     height: 150px;
   }
-
   .wrapper-contacts {
     height: 150px;
   }
-
   .button-contacts {
     margin-top: 30%;
     border: 1px solid #fff;
@@ -1045,28 +973,22 @@ body {
     padding: 10px;
   }
 }
-
 @media screen and (max-width: 330px) {
   .title-card {
     font-size: 10px;
   }
-
   .button-card {
     font-size: 9px;
   }
-
   .background-file {
     width: 250px;
   }
-
   .describe {
     font-size: 12px;
   }
-
   .hid {
     font-size: 12px;
   }
-
   .container-about {
     width: 170px;
   }
@@ -1085,7 +1007,6 @@ body {
     width: 170px;
   }
 }
-
 @media screen and (max-width: 250px) {
   .main {
     display: none;
