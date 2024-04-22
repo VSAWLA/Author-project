@@ -76,7 +76,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  border-radius: 0 0 0 280px;
+
 }
 .header {
   width: 921px;
@@ -122,7 +122,7 @@ body {
   margin: auto;
   text-align: center;
   margin-top: 90px;
-  height: 561px;
+  height: 520px;
 }
 .title-process {
   color: #005f84;
@@ -280,7 +280,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 565px;
-  border-radius: 0 280px 0 0;
 }
 .wrapper-contacts {
   position: relative;
